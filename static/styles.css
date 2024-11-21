@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    font-size: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.search-bar input {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 400px;
+    outline: none;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input::placeholder {
+    color: gray;
+}
+
+#carouselId {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#carouselId img {
+    height: 380px;
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+
+}
+
+.container img {
+    height: 275px;
+}
+
+#footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.text {
+    font-size: larger;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
